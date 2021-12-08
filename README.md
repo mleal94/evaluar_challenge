@@ -1,10 +1,16 @@
 # Evaluar Challenge
 
-## Instalar servidor
+## Instalar las dependencias.
 
     npm install
 
-## Crear la base de datos en MySql
+#### Crear la base de datos de MySql con el nombre ```evaluar_development``` que aparece en el fichero con la siguiente ruta ```config/config.json```,
+#### en este mismo archivo de configuracion se pueden editar los paramatros de acceso a la base de datos para la comunicación,
+#### asi como el usuario y la contraseña.
+#### Una vez creada la misma instalar el paquete  ```sequelize-cli``` de manera global con el siguiente comando:
+
+    npm i sequelize-cli -g
+
 
 ## Una vez creada utilizar los ```seeders```
 
